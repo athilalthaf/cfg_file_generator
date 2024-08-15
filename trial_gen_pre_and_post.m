@@ -1,9 +1,12 @@
 tic;
-phase_name = "pre";    %name whether pre or post     ###### 
+
+% phase_name = "pre";    %name whether pre or post     ###### 
+phase_name = "post";    %name whether pre or post     ###### 
+
 light_stim = ["blue_low","blue_high","uv_low","uv_high","green_low","green_high"]'; % all the light combinations
 
 light_pin = [4,3,2,5,6,7]';                 % light pin info for corresponding light
-odour_stim = ["citral","farnesol","geraniol","d","e","f","h"]'; % arbitrary odour info
+odour_stim = ["peppermint","farnesol","geraniol","d","e","f","h"]'; % arbitrary odour info
 odour_pin = (0:6)';   % odour pin info  for corresponding odours
 
 odour_dat = table(odour_stim,odour_pin); % making the table for easy access
@@ -17,7 +20,7 @@ L2 = "uv_high";
 L3 = "green_high";
 
 
-O1 = "citral";
+O1 = "peppermint";
 O2 = "farnesol";
 O3 = "geraniol";
 

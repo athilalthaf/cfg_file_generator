@@ -3,22 +3,29 @@ phase_name = "cond";   %name the file as conditioning     ######
 light_stim = ["blue_low","blue_high","uv_low","uv_high","green_low","green_high"]'; % all the light combinations
 
 light_pin = [4,3,2,5,6,7]'; % light pin info for corresponding light
-odour_stim = ["a","b","c","d","e","f","h"]';
+odour_stim = ["peppermint","farnesol","geraniol","d","e","f","h"]'; % arbitrary odour info
 odour_pin = (0:6)';
 odour_dat = table(odour_stim,odour_pin);
 light_dat = table(light_stim,light_pin);
 
 mix_pin = (3:5)' ;  % mix pin info
-mix_stim = ["blue_high+a","uv_high+b","green_high+c"]';  % combinations of the mix pin
+mix_stim = ["blue_high+peppermint","uv_high+farnesol","green_high+geraniol"]';  % combinations of the mix pin
 mix_dat = table(mix_stim,mix_pin);
 
 % only a set of combinations are allowed as shown in the mix_stim_table.
-L1 = "green_high"; % change each alterative experiment to green_high and blue_high
+% ###########
+L1 = "uv_high"; % change each alterative experiment to uv_high and blue_high
+O1 = "farnesol";     % change from peppermint and farnesol   
+% ###########
+% L1 = "blue_high"; % change each alterative experiment to uv_high and blue_high
+% O1 = "peppermint";     % chan  ge from peppermint and farnesol
+% ###########
+
+
 % L2 = "uv_high";
 % L3 = "green_high";
 
 
-O1 = "c";     % change from c and a   
 % O2 = "b";
 % O3 = "c";
 
