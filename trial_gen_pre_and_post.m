@@ -1,7 +1,7 @@
 tic;
-
-% phase_name = "pre";    %name whether pre or post     ###### 
-phase_name = "post";    %name whether pre or post     ###### 
+% cd  "C:\Users\athil\OneDrive - uni-bielefeld.de\Desktop\Codes\cfg_file_generator\cfg_file_generator"
+phase_name = "pre";    %name whether pre or post     ###### 
+% phase_name = "post";    %name whether pre or post     ###### 
 
 light_stim = ["blue_low","blue_high","uv_low","uv_high","green_low","green_high"]'; % all the light combinations
 

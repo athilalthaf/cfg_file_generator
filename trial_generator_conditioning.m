@@ -14,11 +14,11 @@ mix_dat = table(mix_stim,mix_pin);
 
 % only a set of combinations are allowed as shown in the mix_stim_table.
 % ###########
-L1 = "uv_high"; % change each alterative experiment to uv_high and blue_high
-O1 = "farnesol";     % change from peppermint and farnesol   
+% L1 = "uv_high"; % change each alterative experiment to uv_high and blue_high
+% O1 = "farnesol";     % change from peppermint and farnesol   
 % ###########
-% L1 = "blue_high"; % change each alterative experiment to uv_high and blue_high
-% O1 = "peppermint";     % chan  ge from peppermint and farnesol
+L1 = "blue_high"; % change each alterative experiment to uv_high and blue_high
+O1 = "peppermint";     % chan  ge from peppermint and farnesol
 % ###########
 
 
